@@ -94,11 +94,15 @@ body {
 }
 .heading{
     
-    animation: wiggle 400ms 0.005s 3 reverse;
+    animation: wiggle 800ms 0.005s 2 reverse;
+
+}
+.heading:hover{
+    color: #07071a57;
 }
 
 
-@media(max-width:640px) {
+@media(max-width:600px) {
     .navbar ul li {
         display: block;
         margin: 20px;
@@ -108,7 +112,7 @@ body {
         position: relative;
         top: 100px;
         right: 0;
-        height: 100vh;
+        height: 80vh;
     }
     .welcome_page {
         display: flex;
@@ -185,6 +189,10 @@ body {
         margin: auto;
     }
 }
+
+
+
+
 
 
 .intro h2 {
@@ -270,8 +278,8 @@ body {
 .contlist {
     justify-content: center;
     align-items: center;
-    padding: 80px;
-    width: 100%;
+    padding: 15px;
+    width: 93%;
     z-index: 10;
 }
 
@@ -288,7 +296,8 @@ body {
     font-size: 1.2rem;
     font-weight: 200;
     display: inline-block;
-    background-color: rgb(77, 46, 46);
+    flex-direction: row;
+
     padding: 20px;
 }
 
